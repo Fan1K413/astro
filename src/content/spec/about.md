@@ -36,4 +36,4 @@ comments: false
 
 [Twikoo](https://twikoo.js.org) 为本站提供评论系统。
 
-[路明笔记]([https://www.hydun.com](https://www.luming.cool/)) 对Gyoza适配的Twikoo.
+[路明笔记](https://www.luming.cool) 对Gyoza适配的Twikoo.
