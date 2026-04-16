@@ -19,15 +19,17 @@ jobs:
       - name: 📥 拉取代码
         uses: actions/checkout@v5
 
+      - name: 📦 安装 pnpm
+        uses: pnpm/action-setup@v5
+        with:
+          version: 9.14.4
+
       - name: 🟢 安装 Node.js
         uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
-
-      - name: ⚙️ 启用 corepack
-        run: corepack enable
 
       - name: 📚 安装依赖
         run: pnpm install --frozen-lockfile --prefer-offline --ignore-scripts
