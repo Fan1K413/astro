@@ -1,10 +1,8 @@
 ---
 title: 你好呀👋
-description: 我是 Fan1K_，一名大一学生。
+description: 我是 Fan1K_，一名大一学生，我会在这里记录我的学习笔记。
 comments: false
 ---
-
-这里是Fan1K_，我会在这里记录我的学习笔记。
 
 
 # 联系📫
@@ -30,7 +28,7 @@ comments: false
 
 # 感谢❤
 
-[GitHub](https://github.com) 本站由action自动构建并托管与ghpage
+[GitHub](https://github.com) 本站由action自动构建并托管于ghpage
 
 **[Astro](https://astro.build)** 为本站提供建站系统。
 
