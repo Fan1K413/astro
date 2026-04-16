@@ -104,7 +104,7 @@
     "startTime": "2026-04-16T04:34:25Z"
   },
   "twikoo": {
-    "envId": "https://twikoo-fan1k.netlify.app"
+    "envId": "https://twikoo-fan1k.netlify.app/.netlify/functions/twikoo"
   },
   "sponsor": {
     "wechat": "https://img.luming.cool/i/2026/02/25/699edb938e856.webp"
