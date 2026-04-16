@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  # 提前适配 Node 24（避免以后自动切换出问题）
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     name: 🏗️ 构建
@@ -17,24 +21,27 @@ jobs:
 
     steps:
       - name: 📥 拉取代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 🟢 安装 Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 20
+          cache: pnpm
 
       - name: 📦 安装 pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v5
+        with:
+          version: 9
 
       - name: 📚 安装依赖
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: 🏗️ 构建 Astro
         run: pnpm build
 
       - name: 📤 上传构建产物
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
 
