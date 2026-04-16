@@ -1,5 +1,7 @@
 # Gyoza
-
+```text
+修改自virelyx258/luming-notes
+```
 Gyoza is a static blog template built with Astro and React.
 
 ![astro version](https://img.shields.io/badge/astro-4.6-red)
