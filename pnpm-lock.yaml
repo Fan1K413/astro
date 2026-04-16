@@ -11056,7 +11056,7 @@ snapshots:
       safe-buffer: 5.2.1
     optional: true
 
-  twikoo@1.6.45(patch_hash=2smdhiozdwokflmagzs3vmzvjq): {}
+  twikoo@1.7.7: {}
 
   type-fest@0.21.3: {}
 
