@@ -95,6 +95,11 @@
       "name": "关于",
       "link": "/about",
       "icon": "icon-ghost"
+    },
+    {
+      "name": "开往",
+      "link": "https://www.travellings.cn/go.html",
+      "icon": "icon-rocket"
     }
   ],
   "posts": {
