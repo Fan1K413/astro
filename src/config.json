@@ -1,39 +1,33 @@
 {
   "site": {
-    "url": "https://luming.cool",
-    "title": "路明笔记",
-    "description": "Luming Notes",
+    "url": "https://algorithm.cyming.top/",
+    "title": "算法笔记",
+    "description": "算法笔记",
     "keywords": "Gyoza,blog,Astro,theme,lxchapu,博客主题",
     "lang": "zh-CN",
-    "favicon": "https://cn-hk-cdn.img.hydun.com/20260328/dc70013746a377077933e4b031e70a94.webp",
-    "appleTouchIcon": "https://cn-hk-cdn.img.hydun.com/20260328/dc70013746a377077933e4b031e70a94.webp"
+    "favicon": "/favicon.ico",
+    "appleTouchIcon": "/apple-touch-icon.png"
   },
   "author": {
-    "name": "RiseForever",
-    "twitterId": "@Luming_258",
-    "avatar": "https://cn.cravatar.com/avatar/302380667bdaf4e1390800e62494d4af?s=512&r=X"
+    "name": "Fan1K",
+    "twitterId": "@Fan1K3",
+    "avatar": "https://www.cyming.top/image/head720.png"
   },
   "hero": {
-    "name": "RiseForever",
-    "bio": "Student , Blogger and Developer.",
-    "description": "只问敢勇，无问西东。",
+    "name": "Fan1K_",
+    "bio": "A college student studying algorithms.",
+    "description": "Clean, Cute, Fast.",
     "socials": [
       {
         "name": "Github",
         "icon": "icon-github",
-        "url": "https://github.com/virelyx258",
+        "url": "https://github.com/Fan1K413",
         "color": "rgb(24, 23, 23)"
-      },
-      {
-        "name": "网易云音乐",
-        "icon": "icon-netease-cloud-music",
-        "url": "https://music.163.com/#/user/home?id=8969584155",
-        "color": "rgb(229,0,38)"
       },
       {
         "name": "BiliBili",
         "icon": "icon-bilibili",
-        "url": "https://space.bilibili.com/3546383965489833",
+        "url": "https://space.bilibili.com/477890602",
         "color": "rgb(10,164,216)"
       },
       {
@@ -107,10 +101,10 @@
     "perPage": 10
   },
   "footer": {
-    "startTime": "2024-10-13T00:00:00Z"
+    "startTime": "2026-04-16T04:34:25Z"
   },
   "twikoo": {
-    "envId": "https://twikoo.luming.cool"
+    "envId": "https://twikoo-fan1k.netlify.app"
   },
   "sponsor": {
     "wechat": "https://img.luming.cool/i/2026/02/25/699edb938e856.webp"
