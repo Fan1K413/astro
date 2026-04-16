@@ -5,8 +5,8 @@
     "description": "算法笔记",
     "keywords": "Gyoza,blog,Astro,theme,lxchapu,博客主题",
     "lang": "zh-CN",
-    "favicon": "/favicon.ico",
-    "appleTouchIcon": "/apple-touch-icon.png"
+    "favicon": "https://www.cyming.top/image/logo.png",
+    "appleTouchIcon": "https://www.cyming.top/image/logo.png"
   },
   "author": {
     "name": "Fan1K",
@@ -38,7 +38,7 @@
       },
       {
         "name": "开往",
-        "icon": "icon-external-link",
+        "icon": "icon-rocket",
         "url": "https://www.travellings.cn/go.html",
         "color": "rgb(24,23,23)"
       }
